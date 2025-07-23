@@ -1,0 +1,138 @@
+.window-person {
+    padding: 25rem;
+
+    background-color: #0F0F0F;
+
+    border: 1rem solid rgba( 255, 255, 255, 0.1 );
+    border-radius: 10rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20rem;
+}
+
+/*Header*/
+
+.person__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__name {
+    font-family: "Gilroy-Bold";
+    font-size: 16rem;
+
+    color: white;
+}
+
+.header__money {
+    font-family: "Gilroy-Bold";
+    font-size: 16rem;
+
+    color: rgba( 255, 255, 255, 0.45 );
+}
+
+/*Appearance*/
+.person__appearance {
+    display: flex;
+    flex-direction: row;
+    gap: 77rem;
+}
+
+/*Accessories*/
+.appearance__accessories-cells > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+/*Hands*/
+.person__hands {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+.person__hands > h1 {
+    font-family: "Gilroy-Bold";
+    font-size: 14rem;
+
+    color: white;
+}
+
+/*Footer*/
+.person__footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+.person__footer > h1 {
+    font-family: "Gilroy-Bold";
+    font-size: 14rem;
+
+    color: white;
+}
+
+/*Item*/
+.appearance__item {
+    display: flex;
+    flex-direction: column;
+    gap: 20rem;
+
+    margin-top: auto;
+}
+
+.item__clothes {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem
+}
+
+.item__clothes > h1 {
+    font-family: "Gilroy-Bold";
+    font-size: 14rem;
+
+    color: white;
+}
+
+.item__bag {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem
+}
+
+.item__bag > h1 {
+    font-family: "Gilroy-Bold";
+    font-size: 14rem;
+
+    color: white;
+}
+
+.footer__accessories-cells > ul {
+    display: flex;
+    flex-direction: row;
+
+    gap: 10rem;
+}
+
+.cell__number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    width: 25rem;
+    height: 25rem;
+
+    background-color: #6F6F6F;
+    border-radius: 10rem 0 10rem 0;
+
+    font-family: "Gilroy-Bold";
+    font-size: 14rem;
+
+    color: white;
+}

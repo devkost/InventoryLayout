@@ -1,0 +1,51 @@
+.window-environment {
+    position: relative;
+
+    background-color: #0F0F0F;
+
+    border: 1rem solid rgba( 255, 255, 255, 0.1 );
+    border-radius: 10rem;
+
+    padding: 30rem 25rem;
+}
+
+.window-environment > h1 {
+    font-family: "Gilroy-Bold";
+    font-size: 16rem;
+
+    color: rgba( 255, 255, 255, 0.5 );
+}
+
+.environment__cells > ul {
+    display: grid;
+    grid-template-columns: repeat( 5, 90rem );
+
+    gap: 10rem;
+
+    margin-top: 25rem;
+}
+
+.environment__not-available {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20rem;
+
+    left: 0;
+    top: 0;
+}
+
+.environment__not-available > p {
+    font-family: "Gilroy-Bold";
+    font-size: 14rem;
+
+    text-align: center;
+
+    color: white;
+}
